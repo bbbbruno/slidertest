@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>スライダーテスト</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./js/slick/slick.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <section class="top">
+
+    <h2>理想（幅％指定）</h2>
+
+    <div class="container">
+      <div class="slide">
+        <ul id="slide-list">
+          <li class="slide-item active">
+            <div class="slide-imgbox active" style="background: url('./img/tv.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+          <li class="slide-item">
+            <div class="slide-imgbox" style="background: url('./img/child.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+          <li class="slide-item">
+            <div class="slide-imgbox" style="background: url('./img/library.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+        </ul>
+        <div class="arrow-r"><img src="./img/arrow-r.svg" alt="右矢印" width="48" height="48"></div>
+      </div><!-- /slide -->
+
+    </div>
+  </section>
+
+  <section class="top">
+
+    <h2>slick（幅px指定）</h2>
+
+    <div class="container">
+      <div class="slide">
+        <ul id="slide-list-slick">
+          <li class="slide-item">
+            <div class="slide-imgbox active" style="background: url('./img/tv.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+          <li class="slide-item">
+            <div class="slide-imgbox" style="background: url('./img/child.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+          <li class="slide-item">
+            <div class="slide-imgbox" style="background: url('./img/library.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+        </ul>
+      </div><!-- /slide -->
+
+    </div>
+  </section>
+  <section class="top">
+
+    <h2>fireslider（幅％指定）</h2>
+
+    <div class="container">
+      <div class="slide">
+        <ul id="slide-list-velocity">
+          <li class="slide-item">
+            <div class="slide-imgbox active" style="background: url('./img/tv.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+          <li class="slide-item">
+            <div class="slide-imgbox" style="background: url('./img/child.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+          <li class="slide-item">
+            <div class="slide-imgbox" style="background: url('./img/library.jpg'); background-size: cover;">
+            </div>
+            <div class="slide-txtbox">
+              <time class="slide-time fopen" datetime="2019-06-12">2019.06.12</time>
+              <h3 class="slide-tit">テストテストテストテストテストテストテストテストテストテスト</h3>
+            </div>
+          </li>
+        </ul>
+        <div class="arrow-r"><img src="./img/arrow-r.svg" alt="右矢印" width="48" height="48"></div>
+      </div><!-- /slide -->
+
+    </div>
+  </section>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/slick/slick.js"></script>
+  <script src="./js/jquery.fireSlider.velocity.js"></script>
+  <script src="./js/jquery.fireSlider.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
