@@ -92,24 +92,6 @@ h2 {
   line-height: 1.85714;
 }
 
-.slide .arrow-r {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  position: absolute;
-  top: 200px;
-  right: 0;
-  width: 48px;
-  height: 48px;
-  padding: 0;
-  border: none;
-  outline: none;
-  background: url("../img/arrow-r.svg") center no-repeat;
-  background-color: transparent;
-  font-size: 0;
-  cursor: pointer;
-}
-
 /* slick */
 #slide-list-slick {
   padding-right: 80px;
@@ -168,16 +150,30 @@ h2 {
   padding: 20px 30px;
 }
 
-/* テキスト関連他（あまり気にしなくてよし） */
-.slide-item.fire-slider-active .slide-txtbox .slide-tit,
-.slide-item.active .slide-txtbox .slide-tit {
-  font-size: 24px;
-  line-height: 1.41667;
-}
+
 
 .slide-item.fire-slider-active .slide-txtbox .slide-time,
 .slide-item.active .slide-txtbox .slide-time {
   margin-bottom: 10px;
+}
+
+/* テキスト関連（あまり気にしなくてよし） */
+.slide .arrow-r {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: url("../img/arrow-r.svg") center no-repeat;
+  background-color: transparent;
+  font-size: 0;
+  cursor: pointer;
 }
 
 #slide-list-slick .slide-item.slick-active .slide-txtbox .slide-tit {

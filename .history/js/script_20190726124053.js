@@ -18,8 +18,6 @@ $(function () {
       }
     }]
   });
-
-  // fireslider
   var slider = $('#slide-list-velocity').fireSlider({
     delay: 4000,
     slide: 'li',

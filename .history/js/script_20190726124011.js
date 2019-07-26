@@ -1,6 +1,4 @@
 $(function () {
-
-  // slick
   var slick = $('#slide-list-slick').slick({
     infinite: true,
     speed: 500,
@@ -18,8 +16,6 @@ $(function () {
       }
     }]
   });
-
-  // fireslider
   var slider = $('#slide-list-velocity').fireSlider({
     delay: 4000,
     slide: 'li',

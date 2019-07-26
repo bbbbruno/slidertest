@@ -1,7 +1,5 @@
 $(function () {
-
-  // slick
-  var slick = $('#slide-list-slick').slick({
+  var slick = jQuery('#slide-list-slick').slick({
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -18,15 +16,13 @@ $(function () {
       }
     }]
   });
-
-  // fireslider
-  var slider = $('#slide-list-velocity').fireSlider({
+  var slider = jQuery('#slide-list-velocity').fireSlider({
     delay: 4000,
     slide: 'li',
     speed: 700,
     show: 'auto',
     hoverPause: true,
-    next: $('.arrow-r'),
+    next: jQuery('.arrow-r'),
   });
   var slideInOut = function (el, options) {
     var duration = (options.snapping) ? 0 : options.speed;
@@ -39,5 +35,5 @@ $(function () {
     });
   };
   fireSlider.prototype.Effects.register('slideInOut', slideInOut);
-  $('.fire-slider-active').attr('data-fireslider-effect', 'slideInOut');
+  jQuery('.fire-slider-active').attr('data-fireslider-effect', 'slideInOut');
 });
