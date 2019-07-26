@@ -6,54 +6,6 @@
 編集しないようにご注意ください。
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 ========================================== */
-@font-face {
-  src: local("Noto Sans CJK JP Thin"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Thin.woff2") format("woff2"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Thin.woff") format("woff"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Thin.otf") format("opentype");
-  font-family: 'NotoSansCJKjp';
-  font-style: normal;
-  font-weight: 100;
-}
-
-@font-face {
-  src: local("Noto Sans CJK JP DemiLight"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-DemiLight.woff2") format("woff2"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-DemiLight.woff") format("woff"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-DemiLight.otf") format("opentype");
-  font-family: 'NotoSansCJKjp';
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  src: local("Noto Sans CJK JP Regular"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Regular.woff2") format("woff2"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Regular.woff") format("woff"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Regular.otf") format("opentype");
-  font-family: 'NotoSansCJKjp';
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  src: local("Noto Sans CJK JP Bold"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Bold.woff2") format("woff2"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Bold.woff") format("woff"), url("../fonts/NotoSansCJKjp/NotoSansCJKjp-Bold.otf") format("opentype");
-  font-family: 'NotoSansCJKjp';
-  font-style: normal;
-  font-weight: 700;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
 body {
   position: relative;
   width: 100%;
